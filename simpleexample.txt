@@ -1,0 +1,66 @@
+
+
+
+git --version  = it will give the current version git installed
+
+followin are some global config variable to know who is accesing code and making changes
+
+git config --global user.name "mundadaashish"
+git config --global user.email"amundada04@gmail.com"
+
+git config -- help or git add --help will show you all the manual description of the functionality add
+
+git init = used to intialize and empty directory and track it
+
+git status = used to  track the files which are commited or not and also to see what are the files that has been modified and untracked.
+
+working directory: untracked file and modified fiels are in this area.
+staging area: files which we commit will be in this area. we can chose which file to commit to repository.
+
+To add file into staging area use follwoing command and check status
+
+git add --a
+
+To remove file from staging area use
+
+git reset file name or git reset(to remove all files)
+
+To commit file :
+
+git commit -m "message"
+
+git log = gives information about the commit we did
+
+git clone "url of the repository"  = we can clone the application present in the remote repository in to the local machine.
+
+git remote -v = will give information about repository
+git branch -a = will give information about branches in the repository
+
+
+PUSH code to repository
+
+first add file to staging area using git add --all and check the status
+
+this will make changes in the local maching and to push this code to repository 
+
+git push orign master 
+
+To pull code from the repository we can use the following code
+
+git pull origin master
+
+To create a branch command is 
+
+git brach branchname
+
+To check the status of braches in repository
+
+git branch
+
+To work on different branch in repostiory use command
+
+git checkout branchname
+
+
+
+
